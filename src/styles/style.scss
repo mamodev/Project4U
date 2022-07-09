@@ -1,0 +1,27 @@
+$today-highlight-bg: white;
+$event-bg: #f2055c;
+$event-border: #3d405b;
+$event-outline: #3d405b;
+$event-padding: 5px 5px;
+$event-border-radius: 10px;
+$calendar-border: transparent;
+
+@import "react-big-calendar/lib/sass/styles";
+
+body {
+  // background-color: #e6f8fe; --OLD DARKER
+  background-color: #ebfaff;
+  margin: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+
+  font-family: "Montserrat", "sans-serif";
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+
+abbr[title] {
+  text-decoration: none;
+}
